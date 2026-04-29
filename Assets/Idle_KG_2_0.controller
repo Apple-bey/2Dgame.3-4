@@ -139,7 +139,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Blend
     m_Mirror: 0
-  m_BlendParameter: idk
+  m_BlendParameter: "\u901F\u5EA6"
   m_BlendParameterY: Blend
   m_MinThreshold: 0
   m_MaxThreshold: 1
@@ -155,7 +155,7 @@ AnimatorController:
   m_Name: Idle_KG_2_0
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Blend
+  - m_Name: "\u901F\u5EA6"
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -163,7 +163,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
-    m_Name: "\u901F\u5EA6"
+    m_Name: L1
     m_StateMachine: {fileID: 9047498771043487784}
     m_Mask: {fileID: 0}
     m_Motions: []
@@ -305,7 +305,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "\u901F\u5EA6"
+  m_Name: L1
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -4194149202390975618}
@@ -318,7 +318,7 @@ AnimatorStateMachine:
     m_Position: {x: 520, y: 70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2063185727037528745}
-    m_Position: {x: 510, y: 210, z: 0}
+    m_Position: {x: 410, y: 200, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -4032928646472964753}
